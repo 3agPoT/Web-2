@@ -1,0 +1,187 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Georgia', serif;
+  color: #c21807;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px #6c757d;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+p, ul, ol, blockquote {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #c21807;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #9b1c04;
+}
+
+a:focus {
+  outline: 2px solid #ffc107;
+}
+
+header {
+  background: linear-gradient(90deg, #c21807, #ffffff, #388e3c);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #6c757d;
+}
+
+header hr {
+  border: 1px solid #fff;
+  margin-top: 20px;
+}
+
+main {
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section, article, aside {
+  margin-bottom: 20px;
+}
+
+figure {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+  font-style: italic;
+  color: #555;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+footer {
+  background-color: #c21807;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+footer nav {
+  margin: 10px 0;
+}
+
+footer nav a {
+  color: white;
+  margin: 0 10px;
+}
+
+footer nav a:hover {
+  color: #ffc107;
+}
+
+footer time {
+  font-size: 0.9rem;
+}
+
+h1::before {
+  content: "🇭🇺";
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  margin-top: 10px;
+  height: 2px;
+  background-color: #c21807;
+}
+
+a:active {
+  color: #ff4500;
+}
+
+img[src*="vylkan"] {
+  border: 4px solid #c21807;
+}
+
+header > h1 {
+  margin-bottom: 15px;
+}
+
+/* Стилі шик таблиці */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #c21807;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #ecf0f1;
+}
+
+td {
+  color: #555;
+}
